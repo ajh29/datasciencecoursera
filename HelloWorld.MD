@@ -2,7 +2,9 @@
 title: "Hello World"
 author: "Ashley Hall"
 date: "11/2/2020"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -10,6 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown
+
+## This is a markdown file.
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
